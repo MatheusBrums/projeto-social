@@ -39,3 +39,19 @@ main{
     height: 478px;
     border-radius: 4px;
 }
+#social-network{
+    text-align: right;
+}
+#social-network img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 14px 3px rgba(0, 0, 0, 0.562);
+   box-sizing: border-box;
+}
+#social-network img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -5px);
+    box-shadow: 18px 10px 9px 3px rgba(0, 0, 0, 0.616);
+    transition: transform 0.3s;
+}
